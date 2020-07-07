@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/kokImage"
+        android:layout_width="161dp"
+        android:layout_height="96dp"
+        app:layout_constraintEnd_toStartOf="@+id/addNoteButton"
+        app:layout_constraintStart_toEndOf="@+id/queryButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kilroys" />
+
+    <Button
+        android:id="@+id/queryButton"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg_round"
+        android:onClick="OnMainToQueryButtonClick"
+        android:text="Q"
+        app:layout_constraintEnd_toStartOf="@+id/kokImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addNoteButton"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg_round"
+        android:onClick="OnMainToNotesButtonClick"
+        android:text="+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kokImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/jobTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kokImage">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/bartenderTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bartender" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/serverTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/barbackTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barback" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/securityTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security" />
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobTabLayout" >
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

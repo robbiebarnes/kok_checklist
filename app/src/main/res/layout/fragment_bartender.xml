@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bartender">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/openTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Start of Shift:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight=".8"/>
+
+
+                <Button
+                    android:id="@+id/minimizeButton5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="⌄"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bring down all matts, fruit, straws and steels. Prepare for a busy shift"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton37"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton37"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo37"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Turn on all lights and neon signs"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton38"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton38"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo38"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marry glassware and bring down extra glass depending on special for today"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton39"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton39"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo39"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trash cans are empty and put back in determined spots"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wipe down the Bar and put all bar stools out"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fill wells with ice"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chillers are stocked"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure server is well prepared with everything that they might need for day part"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/infoImageButton44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/photo44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ask manager if there is anything else they would like done"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:layout_weight=".25"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/allShiftsTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="During Shift (All shifts):"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight=".8"/>
+
+
+                <Button
+                    android:id="@+id/minimizeButton6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="⌄"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keep all wells full of ice"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton46"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton46"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keep bar top clean"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton47"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton47"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organize/stock wells and chillers."
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton48"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton48"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continue to stock beer tubs"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton49"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton49"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continue to stock red bull"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organize money and make 20 stacks"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stock straws, napkins, and glassware"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keep bar clean and organized"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo53"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/happyHourTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Happy Hour:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight=".8"/>
+
+
+                <Button
+                    android:id="@+id/minimizeButton7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="⌄"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bar should ne completely clean, organized, stocked, and ready for next shift and bartender. Next bartender should be completely set-up and ready to serve."
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo54"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check out with incoming bartender and manager"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo55"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banks and checkouts turned in to the manager"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton56"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton56"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo56"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wait for manager to count your bank if available"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton57"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton57"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo57"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clock out (your shift is not done until bar is completely ready)"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton58"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton58"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo58"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/closingTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Closing:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight=".8"/>
+
+
+                <Button
+                    android:id="@+id/minimizeButton8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="⌄"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marry Glassware"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton59"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton59"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo59"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean well bottles, burn and sanitize all wells"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wipe doen all liquor bottles and put in correct spot, organized, and marry duplicates"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo61"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marry, restock, wipe down chillers and liquor bottles"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo62"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean beer grate and under pints with a pitcher if hot water and completely dry off"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo63"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean soda gun and holsters"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo64"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restock well liquor"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton65"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton65"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo65"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean mirror behind the bar with Windex and paper towels(if you are at new bar)"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton66"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton66"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo66"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dump ice, replace bus tubs, and straighten bottle beer tubs"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton67"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton67"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo67"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean and wipe down all computers and hardware with water and towel"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton68"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton68"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo68"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clean and sanitize all bar top and back bar"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton69"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton69"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo69"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restock 32s"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo70"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bleach mop entire floor"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo71"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remove floor mats, trash cans, beer tubs and pick up floor"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton72"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton72"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo72"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure all glassware, mats and towels are bussed upstairs"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo73"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Turn in radios to barback room"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton74"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton74"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo74"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tell management about anything broken and make sure bar is ready for open"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/editText75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_weight="75"
+                    android:visibility="gone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/infoImageButton75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/photoImageButton75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/photo75"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:src="@android:drawable/list_selector_background" />
+
+                <Space
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".35"/>
+
+                <Button
+                    android:id="@+id/bartenderSubmitButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_weight=".3"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".35"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>
